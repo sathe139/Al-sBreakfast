@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header {
+    /* Al’s Breakfast */
+
+    position: absolute;
+    width: 680px;
+    height: 100px;
+    left: 37px;
+    top: 14px;
+
+    font-family: Yesteryear, "Brush Script MT", serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 96px;
+
+    color: #17274B;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.navbar {
+    position: absolute;
+    width: 1200px;
+    height: 60px;
+    left: 0px;
+    top: 130px;
+
+    background: #17274B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navtext {
+    transition: font-size 1s;
+}
+.navtext:hover {
+    font-size: 163%;
+    cursor: pointer;
+}
+.menu {
+
+    position: absolute;
+    width: 142px;
+    height: 24px;
+    left: 50px;
+    top: 148px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 25px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    align-items:center;
+}
+
+.hours {
+
+    position: absolute;
+    width: 143px;
+    height: 24px;
+    left: 192px;
+    top: 148px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 25px;
+
+    color: #6B93C0;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    align-items:center;
+}
+
+.about {
+
+    position: absolute;
+    width: 141px;
+    height: 24px;
+    left: 335px;
+    top: 148px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 25px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    align-items:center;
+}
+
+.contact {
+
+    position: absolute;
+    width: 141px;
+    height: 24px;
+    left: 476px;
+    top: 148px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 25px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    align-items:center;
+}
+
+.locationdirections {
+
+    position: absolute;
+    width: 323px;
+    height: 24px;
+    left: 637px;
+    top: 148px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 25px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    align-items:center;
+}
+
+.merchandise {
+
+    position: absolute;
+    width: 194px;
+    height: 24px;
+    left: 970px;
+    top: 148px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 25px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    align-items:center;
+}
+
+.monsat {
+    position: absolute;
+    width: 380px;
+    height: 40px;
+    left: 110px;
+    top: 273px;
+
+    font-family: Yesteryear, "Brush Script MT", serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 45px;
+    font-size: 45px;
+
+    color: #17274B;
+}
+.monsattime {
+    position: absolute;
+    width: 380px;
+    height: 40px;
+    left: 120px;
+    top: 333px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px;
+    font-size: 25px;
+    font-weight: lighter;
+
+    color: #17274B;
+}
+.sun {
+    position: absolute;
+    width: 380px;
+    height: 40px;
+    left: 110px;
+    top: 390px;
+
+    font-family: Yesteryear, "Brush Script MT", serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 45px;
+    font-size: 45px;
+
+    color: #17274B;
+
+}
+.suntime {
+    position: absolute;
+    width: 380px;
+    height: 40px;
+    left: 120px;
+    top: 450px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px;
+    font-size: 25px;
+    font-weight: lighter;
+
+    color: #17274B;
+
+}
+.closed {
+    position: absolute;
+    width: 390px;
+    height: 140px;
+    left: 110px;
+    top: 530px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 16px;
+
+    color: #17274B;
+}
+span {
+    font-weight: lighter;
+    padding-left: 10px;
+}
+
+.pic {
+    position: absolute;
+    width: 660px;
+    height: 450px;
+    left: 540px;
+    top: 230px;
+
+    background: url(images/outside2.jpg);
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+    background-size: cover;
+}
+
+.footer {
+    position: absolute;
+    width: 1200px;
+    height: 79px;
+    left: 10px;
+    top: 720px;
+
+    background: #17274B;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+    bottom: 0;
+    align-items: center;
+}
+.footertext {
+    position: center;
+    width: 1030px;
+    height: 40px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+    font-size: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+    padding-top: 27px;
+    padding-left: 160px;
+    float: left;
+}

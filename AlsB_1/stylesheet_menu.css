@@ -1,0 +1,626 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+span {
+    font-weight: bold;
+}
+
+.header {
+    /* Al’s Breakfast */
+
+    position: absolute;
+    width: 680px;
+    height: 100px;
+    left: 37px;
+    top: 14px;
+
+    font-family: Yesteryear, "Brush Script MT", serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 96px;
+
+    color: #17274B;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.navbar {
+    position: absolute;
+    width: 1200px;
+    height: 60px;
+    left: 0px;
+    top: 130px;
+
+    background: #17274B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navtext {
+    transition: font-size 1s;
+}
+.navtext:hover {
+    font-size: 163%;
+    cursor: pointer;
+}
+.menu {
+
+    position: absolute;
+    width: 142px;
+    height: 24px;
+    left: 50px;
+    top: 148px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 25px;
+
+    color: #6B93C0;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    align-items:center;
+}
+
+.hours {
+
+    position: absolute;
+    width: 143px;
+    height: 24px;
+    left: 192px;
+    top: 148px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 25px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    align-items:center;
+}
+
+.about {
+
+    position: absolute;
+    width: 141px;
+    height: 24px;
+    left: 335px;
+    top: 148px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 25px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    align-items:center;
+}
+
+.contact {
+
+    position: absolute;
+    width: 141px;
+    height: 24px;
+    left: 476px;
+    top: 148px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 25px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    align-items:center;
+}
+
+.locationdirections {
+
+    position: absolute;
+    width: 323px;
+    height: 24px;
+    left: 637px;
+    top: 148px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 25px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    align-items:center;
+}
+
+.merchandise {
+
+    position: absolute;
+    width: 194px;
+    height: 24px;
+    left: 970px;
+    top: 148px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 25px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    align-items:center;
+}
+.circle {
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    background: #17274B;
+
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 55px;
+    transition: top 1s;
+}
+.circle:hover {
+    top: 31%;
+    cursor: pointer;
+}
+.scramblescircle {
+    left: 70px;
+    top: 240px;
+}
+.omeletscircle {
+    left: 205px;
+    top: 240px;
+}
+.moreeggscircle {
+    left: 342px;
+    top: 240px;
+}
+.pancakescircle {
+    left: 477px;
+    top: 240px;
+}
+.wafflescircle {
+    left: 614px;
+    top: 240px;
+}
+.frenchtoastcircle {
+    left: 749px;
+    top: 240px;
+}
+.sidescircle {
+    left: 886px;
+    top: 240px;
+}
+.beveragescircle {
+    left: 1021px;
+    top: 240px;
+}
+
+.foodtype {
+    position: center;
+    width: 137px;
+    height: 35px;
+    left: 55px;
+    top: 275px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 18px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    padding-right: 30px;
+    padding-top: 40px;
+}
+.scrambles {
+    position: relative;
+    width: 380px;
+    height: 40px;
+    left: 410px;
+    top: 400px;
+
+    font-family: Yesteryear, "Brush Script MT", Serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 90px;
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 20px;
+    color: #17274B;
+}
+.scrambletext {
+    position: relative;
+    width: 610px;
+    height: 1447px;
+    left: 314px;
+    top: 460px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+
+    color: #17274B;
+    padding-top: 40px;
+    line-height: 34px;
+}
+.omelets {
+    position: relative;
+    width: 380px;
+    height: 40px;
+    left: 410px;
+    top: 520px;
+
+    font-family: Yesteryear, "Brush Script MT", Serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 90px;
+    text-align: center;
+    padding-left: 40px;
+    color: #17274B;
+}
+.omelettext {
+    position: relative;
+    width: 610px;
+    height: 1447px;
+    left: 314px;
+    top: 580px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+
+    color: #17274B;
+    padding-top: 20px;
+    line-height: 34px;
+}
+.moreeggs {
+    position: relative;
+    width: 380px;
+    height: 40px;
+    left: 410px;
+    top: 680px;
+
+    font-family: Yesteryear, "Brush Script MT", Serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 90px;
+    text-align: center;
+    padding-left: 40px;
+    color: #17274B;
+}
+.moreeggstext {
+    position: relative;
+    width: 610px;
+    height: 700px;
+    left: 314px;
+    top: 850px;
+
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+
+    color: #17274B;
+    padding-top: 20px;
+    line-height: 34px;
+}
+
+.leftpic1 {
+    position: absolute;
+    width: 293px;
+    height: 220px;
+    left: -3px;
+    top: 410px;
+
+    background-image: url("images/pancakes.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.leftpic2 {
+    position: absolute;
+    width: 290px;
+    height: 450px;
+    left: 0px;
+    top: 660px;
+
+    background-image: url("images/cheesyegg.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.leftpic3 {
+    position: absolute;
+    width: 293px;
+    height: 170px;
+    left: -3px;
+    top: 1140px;
+
+    background-image: url("images/waffle.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.leftpic4 {
+    position: absolute;
+    width: 290px;
+    height: 300px;
+    left: 0px;
+    top: 1340px;
+
+    background-image: url("images/hasbrownegs.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.leftpic5 {
+    position: absolute;
+    width: 290px;
+    height: 320px;
+    left: 0px;
+    top: 1680px;
+
+    background-image: url("images/pancakes3.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.leftpic6 {
+    position: absolute;
+    width: 290px;
+    height: 320px;
+    left: 0px;
+    top: 2030px;
+
+    background-image: url("images/coffee.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.leftpic7 {
+    position: absolute;
+    width: 290px;
+    height: 190px;
+    left: 0px;
+    top: 2380px;
+
+    background-image: url("images/eggsbenedict.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.leftpic8 {
+    position: absolute;
+    width: 290px;
+    height: 531px;
+    left: 0px;
+    top: 2600px;
+
+    background-image: url("images/pancakes2.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.leftpic9 {
+    position: absolute;
+    width: 290px;
+    height: 160px;
+    left: 0px;
+    top: 3160px;
+
+    background-image: url("images/frenchtoast.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.leftpic10 {
+    position: absolute;
+    width: 290px;
+    height: 270px;
+    left: 0px;
+    top: 3350px;
+
+    background-image: url("images/baconhashbrown.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rightpic1 {
+    position: absolute;
+    width: 290px;
+    height: 320px;
+    left: 910px;
+    top: 410px;
+
+    background-image: url("images/coffee.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rightpic2 {
+    position: absolute;
+    width: 290px;
+    height: 190px;
+    left: 910px;
+    top: 760px;
+
+    background-image: url("images/eggsbenedict.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rightpic3 {
+    position: absolute;
+    width: 290px;
+    height: 531px;
+    left: 910px;
+    top: 980px;
+
+    background-image: url("images/pancakes2.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rightpic4 {
+    position: absolute;
+    width: 290px;
+    height: 160px;
+    left: 910px;
+    top: 1540px;
+
+    background-image: url("images/frenchtoast.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rightpic5 {
+    position: absolute;
+    width: 290px;
+    height: 270px;
+    left: 910px;
+    top: 1730px;
+
+    background-image: url("images/baconhashbrown.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rightpic6 {
+    position: absolute;
+    width: 290px;
+    height: 220px;
+    left: 910px;
+    top: 2030px;
+
+    background-image: url("images/pancakes.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rightpic7 {
+    position: absolute;
+    width: 290px;
+    height: 450px;
+    left: 910px;
+    top: 2280px;
+
+    background-image: url("images/cheesyegg.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rightpic8 {
+    position: absolute;
+    width: 290px;
+    height: 170px;
+    left: 910px;
+    top: 2760px;
+
+    background-image: url("images/waffle.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rightpic9 {
+    position: absolute;
+    width: 290px;
+    height: 300px;
+    left: 910px;
+    top: 2960px;
+
+    background-image: url("images/hasbrownegs.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rightpic10 {
+    position: absolute;
+    width: 290px;
+    height: 320px;
+    left: 910px;
+    top: 3300px;
+
+    background-image: url("images/pancakes3.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.leftpic11 {
+    position: absolute;
+    width: 293px;
+    height: 220px;
+    left: -3px;
+    top: 3650px;
+
+    background-image: url("images/pancakes.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.leftpic12 {
+    position: absolute;
+    width: 290px;
+    height: 450px;
+    left: 0px;
+    top: 3900px;
+
+    background-image: url("images/cheesyegg.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.leftpic13 {
+    position: absolute;
+    width: 293px;
+    height: 170px;
+    left: -3px;
+    top: 4380px;
+
+    background-image: url("images/waffle.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rightpic11 {
+    position: absolute;
+    width: 290px;
+    height: 320px;
+    left: 910px;
+    top: 3650px;
+
+    background-image: url("images/coffee.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rightpic12 {
+    position: absolute;
+    width: 290px;
+    height: 190px;
+    left: 910px;
+    top: 4000px;
+
+    background-image: url("images/eggsbenedict.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rightpic13 {
+    position: absolute;
+    width: 290px;
+    height: 330px;
+    left: 910px;
+    top: 4220px;
+
+    background-image: url("images/pancakes2.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
