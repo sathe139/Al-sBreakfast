@@ -16,7 +16,7 @@
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 96px;
+    font-size: 80px;
 
     color: #17274B;
 
@@ -171,13 +171,13 @@
     width: 380px;
     height: 40px;
     left: 110px;
-    top: 273px;
+    top: 275px;
 
-    font-family: Yesteryear, "Brush Script MT", serif;
+    font-family: Fira Sans, sans-serif;
     font-style: normal;
-    font-weight: normal;
-    line-height: 45px;
-    font-size: 45px;
+    font-weight: 500;
+    line-height: 31px;
+    font-size: 25px;
 
     color: #17274B;
 }
@@ -186,13 +186,13 @@
     width: 380px;
     height: 40px;
     left: 120px;
-    top: 333px;
+    top: 310px;
 
     font-family: Fira Sans, sans-serif;
     font-style: normal;
     font-weight: 300;
     line-height: 29px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: lighter;
 
     color: #17274B;
@@ -204,11 +204,11 @@
     left: 110px;
     top: 390px;
 
-    font-family: Yesteryear, "Brush Script MT", serif;
+    font-family: Fira Sans, sans-serif;
     font-style: normal;
-    font-weight: normal;
-    line-height: 45px;
-    font-size: 45px;
+    font-weight: 500;
+    line-height: 31px;
+    font-size: 25px;
 
     color: #17274B;
 
@@ -218,13 +218,13 @@
     width: 380px;
     height: 40px;
     left: 120px;
-    top: 450px;
+    top: 425px;
 
     font-family: Fira Sans, sans-serif;
     font-style: normal;
     font-weight: 300;
     line-height: 29px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: lighter;
 
     color: #17274B;
@@ -240,7 +240,7 @@
     font-family: Fira Sans, sans-serif;
     font-style: normal;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 19px;
     font-size: 16px;
 
     color: #17274B;

@@ -16,7 +16,7 @@
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 96px;
+    font-size: 80px;
 
     color: #17274B;
 
@@ -168,17 +168,16 @@
 
 .smallheader {
     position: absolute;
-    width: 460px;
+    width: 600px;
     height: 40px;
-    left: 40px;
-    top: 290px;
+    left: 75px;
+    top: 310px;
 
-    font-family: Yesteryear, "Brush Script MT", Serif;
+    font-family: Yesteryear, sans-serif;
     font-style: normal;
-    font-weight: normal;
-    line-height: 53px;
+    font-weight: lighter;
+    line-height: 31px;
     font-size: 50px;
-    text-align: center;
 
     color: #17274B;
 
@@ -187,14 +186,14 @@
     position: absolute;
     width: 380px;
     height: 40px;
-    left: 110px;
-    top: 400px;
+    left: 90px;
+    top: 410px;
 
-    font-family: Yesteryear, "Brush Script MT", Serif;
+    font-family: Fira Sans, sans-serif;
     font-style: normal;
-    font-weight: normal;
-    line-height: 45px;
-    font-size: 40px;
+    font-weight: 500;
+    line-height: 31px;
+    font-size: 25px;
 
     color: #17274B;
 }
@@ -203,13 +202,13 @@
     width: 380px;
     height: 40px;
     left: 110px;
-    top: 455px;
+    top: 445px;
 
     font-family: Fira Sans, sans-serif;
     font-style: normal;
     font-weight: lighter;
     line-height: normal;
-    font-size: 28px;
+    font-size: 30px;
 
     color: #17274B;
 }
@@ -217,14 +216,14 @@
     position: absolute;
     width: 380px;
     height: 40px;
-    left: 110px;
-    top: 528px;
+    left: 90px;
+    top: 535px;
 
-    font-family: Yesteryear, "Brush Script MT", Serif;
+    font-family: Fira Sans, sans-serif;
     font-style: normal;
-    font-weight: normal;
-    line-height: 45px;
-    font-size: 40px;
+    font-weight: 500;
+    line-height: 31px;
+    font-size: 25px;
 
     color: #17274B;
 }
@@ -233,23 +232,23 @@
     width: 380px;
     height: 40px;
     left: 110px;
-    top: 583px;
+    top: 570px;
 
     font-family: Fira Sans, sans-serif;
     font-style: normal;
     font-weight: lighter;
     line-height: normal;
-    font-size: 28px;
+    font-size: 30px;
 
     color: #17274B;
 
 }
 .image {
     position: absolute;
-    width: 660px;
-    height: 450px;
-    left: 540px;
-    top: 230px;
+    width: 600px;
+    height: 400px;
+    left: 600px;
+    top: 270px;
 
     background-image: url("images/interior2.jpg");
     background-size: cover;
@@ -258,10 +257,10 @@
 
 .reasons {
     position: absolute;
-    width: 980px;
+    width: 1035px;
     height: 272px;
-    left: 110px;
-    top: 723px;
+    left: 90px;
+    top: 750px;
 
     font-family: Fira Sans, sans-serif;
     font-style: normal;
@@ -272,9 +271,13 @@
     color: #17274B;
 }
 span {
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 40px;
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    font-size: 25px;
+
+    color: #17274B;
 }
 
 .footer {
@@ -282,7 +285,7 @@ span {
     width: 1200px;
     height: 80px;
     left: 0px;
-    top: 1100px;
+    top: 1020px;
 
     background: #17274B;
     box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
@@ -297,7 +300,7 @@ span {
     font-family: Fira Sans, sans-serif;
     font-style: normal;
     font-weight: 300;
-    line-height: 21px;
+    line-height: 19px;
     font-size: 16px;
     text-align: center;
 
@@ -305,4 +308,7 @@ span {
     padding-top: 27px;
     padding-left: 160px;
     float: left;
+}
+li {
+    line-height: 26px;
 }

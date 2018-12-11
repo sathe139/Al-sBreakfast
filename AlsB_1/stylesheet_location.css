@@ -16,7 +16,7 @@
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 96px;
+    font-size: 80px;
 
     color: #17274B;
 
@@ -175,7 +175,7 @@
     font-family: Fira Sans, sans-serif;
     font-style: normal;
     font-weight: 500;
-    line-height: 31px;
+    line-height: 36px;
     font-size: 30px;
 
     color: #17274B;
@@ -190,7 +190,7 @@
 
     font-family: Fira Sans, sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: lighter;
     line-height: 19px;
     font-size: 16px;
 
@@ -206,9 +206,8 @@
     font-family: Fira Sans, sans-serif;
     font-style: normal;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 19px;
     font-size: 16px;
-    text-decoration-line: underline;
 
     color: #6B93C0;
 }

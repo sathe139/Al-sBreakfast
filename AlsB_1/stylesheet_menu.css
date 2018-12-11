@@ -19,7 +19,7 @@ span {
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 96px;
+    font-size: 80px;
 
     color: #17274B;
 
@@ -236,18 +236,21 @@ span {
     padding-right: 30px;
     padding-top: 40px;
 }
+h3 {
+    line-height: 30px;
+}
 .scrambles {
     position: relative;
     width: 380px;
     height: 40px;
-    left: 410px;
+    left: 390px;
     top: 400px;
 
     font-family: Yesteryear, "Brush Script MT", Serif;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 90px;
+    font-size: 80px;
     text-align: center;
     padding-left: 40px;
     padding-top: 20px;
@@ -257,7 +260,7 @@ span {
     position: relative;
     width: 610px;
     height: 1447px;
-    left: 314px;
+    left: 300px;
     top: 460px;
 
     font-family: Fira Sans, sans-serif;
@@ -268,20 +271,20 @@ span {
 
     color: #17274B;
     padding-top: 40px;
-    line-height: 34px;
+    line-height: 23px;
 }
 .omelets {
     position: relative;
     width: 380px;
     height: 40px;
-    left: 410px;
-    top: 520px;
+    left: 390px;
+    top: 270px;
 
     font-family: Yesteryear, "Brush Script MT", Serif;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 90px;
+    font-size: 80px;
     text-align: center;
     padding-left: 40px;
     color: #17274B;
@@ -290,8 +293,8 @@ span {
     position: relative;
     width: 610px;
     height: 1447px;
-    left: 314px;
-    top: 580px;
+    left: 300px;
+    top: 330px;
 
     font-family: Fira Sans, sans-serif;
     font-style: normal;
@@ -301,20 +304,20 @@ span {
 
     color: #17274B;
     padding-top: 20px;
-    line-height: 34px;
+    line-height: 23px;
 }
 .moreeggs {
     position: relative;
-    width: 380px;
+    width: 800px;
     height: 40px;
-    left: 410px;
-    top: 680px;
+    left: 200px;
+    top: 40px;
 
     font-family: Yesteryear, "Brush Script MT", Serif;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 90px;
+    font-size: 80px;
     text-align: center;
     padding-left: 40px;
     color: #17274B;
@@ -323,8 +326,8 @@ span {
     position: relative;
     width: 610px;
     height: 700px;
-    left: 314px;
-    top: 850px;
+    left: 300px;
+    top: 100px;
 
     font-family: Fira Sans, sans-serif;
     font-style: normal;
@@ -334,7 +337,7 @@ span {
 
     color: #17274B;
     padding-top: 20px;
-    line-height: 34px;
+    line-height: 23px;
 }
 
 .leftpic1 {
@@ -554,73 +557,6 @@ span {
     top: 3300px;
 
     background-image: url("images/pancakes3.jpg");
-    background-size: cover;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.leftpic11 {
-    position: absolute;
-    width: 293px;
-    height: 220px;
-    left: -3px;
-    top: 3650px;
-
-    background-image: url("images/pancakes.jpg");
-    background-size: cover;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.leftpic12 {
-    position: absolute;
-    width: 290px;
-    height: 450px;
-    left: 0px;
-    top: 3900px;
-
-    background-image: url("images/cheesyegg.jpg");
-    background-size: cover;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.leftpic13 {
-    position: absolute;
-    width: 293px;
-    height: 170px;
-    left: -3px;
-    top: 4380px;
-
-    background-image: url("images/waffle.jpg");
-    background-size: cover;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.rightpic11 {
-    position: absolute;
-    width: 290px;
-    height: 320px;
-    left: 910px;
-    top: 3650px;
-
-    background-image: url("images/coffee.jpg");
-    background-size: cover;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.rightpic12 {
-    position: absolute;
-    width: 290px;
-    height: 190px;
-    left: 910px;
-    top: 4000px;
-
-    background-image: url("images/eggsbenedict.jpg");
-    background-size: cover;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.rightpic13 {
-    position: absolute;
-    width: 290px;
-    height: 330px;
-    left: 910px;
-    top: 4220px;
-
-    background-image: url("images/pancakes2.jpg");
     background-size: cover;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
